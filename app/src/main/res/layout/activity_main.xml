@@ -23,12 +23,12 @@
 
         <RelativeLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
-            android:id="@+id/pagecompone1"
+            android:id="@+id/pagecompone"
             android:layout_width="328dp"
             android:layout_height="156dp"
             android:clipToOutline="true"
-            android:background="@drawable/banner"
             android:layout_gravity="center"
+            android:background="@drawable/banner"
             />
 
         <RelativeLayout
