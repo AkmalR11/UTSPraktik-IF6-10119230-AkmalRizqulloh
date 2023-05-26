@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="pelaksanaan">
+    <item name="android:textSize">14sp</item>
+    <item name="android:textColor">#424242</item>
+    </style>
+
+    <style name="detail">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#16A75C</item>
+    </style>
+
+
+</resources>

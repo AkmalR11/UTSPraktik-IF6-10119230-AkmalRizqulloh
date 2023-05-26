@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#E5E5E5">
+        <RelativeLayout
+            android:id="@+id/spacer"
+            android:layout_width="360dp"
+            android:layout_height="12dp"
+            android:clipToOutline="true"
+            android:layout_gravity="center"
+            android:background="@drawable/spacer"
+            />
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pagecompone1"
+            android:layout_width="328dp"
+            android:layout_height="156dp"
+            android:clipToOutline="true"
+            android:background="@drawable/banner"
+            android:layout_gravity="center"
+            />
+
+        <RelativeLayout
+            android:id="@+id/spacer2"
+            android:layout_width="360dp"
+            android:layout_height="12dp"
+            android:clipToOutline="true"
+            android:layout_gravity="center"
+            android:background="@drawable/spacer"
+            />
+
+        <RelativeLayout
+            android:id="@+id/frame804"
+            android:layout_width="360dp"
+            android:layout_height="147dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/white"
+            android:layout_gravity="center">
+
+            <RelativeLayout
+                android:id="@+id/spacer3"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:clipToOutline="true"
+                android:background="@drawable/spacer"
+                android:gravity="center"
+                />
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/tittle"
+                android:layout_width="304dp"
+                android:layout_height="23dp"
+                android:layout_below="@+id/spacer3"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/title"
+                />
+
+            <RelativeLayout
+                android:id="@+id/spacer4"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:clipToOutline="true"
+                android:layout_below="@+id/tittle"
+                android:background="@drawable/spacer"
+                android:gravity="center"
+                />
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/kontainer"
+                android:layout_width="304dp"
+                android:layout_height="84dp"
+                android:layout_below="@+id/spacer4"
+                android:background="@drawable/kontainer"
+                android:layout_centerHorizontal="true"
+                />
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/spacer5"
+            android:layout_width="360dp"
+            android:layout_height="12dp"
+            android:clipToOutline="true"
+            android:layout_gravity="center"
+            android:background="@drawable/spacer"
+            />
+
+        <RelativeLayout
+            android:id="@+id/frame810"
+            android:layout_width="360dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            >
+            <RelativeLayout
+                android:id="@+id/spacer6"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:clipToOutline="true"
+                android:layout_gravity="center"
+                android:background="@drawable/spacer"
+                />
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/frame_940"
+                android:layout_width="28dp"
+                android:layout_height="22dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="2dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/spacer6"
+                android:clipToOutline="true"
+                android:background="@drawable/frame_940"
+                />
+            <RelativeLayout
+                android:id="@+id/spacer7"
+                android:layout_width="360dp"
+                android:layout_height="12dp"
+                android:clipToOutline="true"
+                android:layout_below="@+id/frame_940"
+                android:layout_gravity="center"
+                android:background="@drawable/spacer"
+                />
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/konten"
+                android:layout_width="304dp"
+                android:layout_height="22dp"
+                android:layout_below="@+id/spacer7"
+                android:background="@drawable/konten"
+                android:layout_centerInParent="true"
+                />
+            <RelativeLayout
+                android:id="@+id/spacer8"
+                android:layout_width="360dp"
+                android:layout_height="12dp"
+                android:clipToOutline="true"
+                android:layout_below="@+id/konten"
+                android:layout_gravity="center"
+                android:background="@drawable/spacer"
+                />
+
+            <RelativeLayout
+                android:id="@+id/frame_765"
+                android:layout_width="304dp"
+                android:layout_height="84dp"
+                android:layout_below="@+id/spacer8"
+                android:layout_centerInParent="true"
+                android:background="@color/green1">
+
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/teks"
+                    android:layout_width="217dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/teks" />
+
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/detail_card"
+                    android:layout_width="63dp"
+                    android:layout_height="22dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/detail_card" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/spacer9"
+                android:layout_width="360dp"
+                android:layout_height="12dp"
+                android:clipToOutline="true"
+                android:layout_below="@+id/frame_765"
+                android:layout_gravity="center"
+                android:background="@drawable/spacer"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/spacer10"
+            android:layout_width="360dp"
+            android:layout_height="12dp"
+            android:clipToOutline="true"
+            android:layout_below="@+id/frame_765"
+            android:layout_gravity="center"
+            android:background="@drawable/spacer"/>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
